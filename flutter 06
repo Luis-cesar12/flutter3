@@ -1,0 +1,48 @@
+import 'package:flutter/material.dart';
+
+void main(){
+  runApp(MaterialApp(
+    
+    debugShowCheckedModeBanner : false;
+    home: HomeStateful();
+    
+    
+  
+  
+   ));
+  
+  }
+
+class HomeStateful extends StatefulWidget() {
+  @override
+     _HomeStatefulState creatState() => _HomeStatefulStateful();
+  
+}
+
+class _HomeStatefulState extends State<HomeStateful>{
+
+var _texto = "AULA FLUTTER";
+  
+  return Scaffold(
+    appBar: AppBar(
+      title: Text( "aula flutter" )
+      backgroundcolor:Colors.green,
+    
+    ),
+    )
+
+}
+
+
+class _Home extends StatelessWidget {
+  @override
+  Widget build(BuildContext context){
+    var _titulo = "AULA 2 DS DE FLUTTER";
+    
+    
+    
+  }
+  
+  
+  
+}
